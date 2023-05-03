@@ -45,8 +45,8 @@ function SignUp() {
   return (
     <div className="signup-container">
       <div className="detail-cont">
-        <h1>Welcome To SignUp page</h1>
-        <h3>SignUp to your Account by filling valid details</h3>
+        <h2>Welcome To SignUp page</h2>
+        <h4>SignUp to your Account by filling valid details</h4>
         <form type="submit">
           <lable>Name</lable><br />
           <input className="inp-field"
@@ -72,7 +72,7 @@ function SignUp() {
             Placeholder="enter password"
             name="password"
             onChange={getdata}
-          ></input><br /><br />
+          ></input><br />
 
           <button className="submit-btn" type="submit" onClick={addData} variant="outlined">
             Submit Details
@@ -87,3 +87,4 @@ function SignUp() {
 }
 
 export default SignUp;
+
