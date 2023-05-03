@@ -7,7 +7,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 35px;
-
 }
 
 .login-img {
@@ -48,9 +47,19 @@ body {
   border-radius: 5px;
 }
 
+.input-container {
+  width: "350px";
+  max-width: "100%";
+}
+
 .sign-btn {
   color: aliceblue;
   background-color: rgb(202, 56, 20);
   text-decoration: none;
   border-radius: 5px;
+}
+
+.login-link {
+  color: "white";
+  margin-left: 200px;
 }
