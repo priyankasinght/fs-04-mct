@@ -1,0 +1,48 @@
+.movieDetailCard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.leftMoviedetail {
+    width: 40%;
+}
+
+.rightMoviedetail {
+    width: 55%;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.rating {
+    font-size: 20px;
+    color: #f5c518;
+}
+
+.genres {
+    font-size: 20px;
+}
+
+.release-date {
+    font-size: 20px;
+}
+
+.overview {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.relatedMoviesTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}

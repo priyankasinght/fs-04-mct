@@ -1,0 +1,39 @@
+.signup-container {
+    color: rgb(222, 225, 228);
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(22, 21, 21);
+
+}
+
+.detail-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left_Login button {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.inp-field {
+    width: 300px;
+    height: 40px;
+    margin: 20px
+}
+
+.submit-btn {
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    margin: 20px
+}
+
+.signup {
+    margin-right: 180px;
+}
