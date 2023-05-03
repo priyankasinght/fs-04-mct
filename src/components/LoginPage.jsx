@@ -41,7 +41,7 @@ const LoginPage = () => {
         if (userlogin.length === 0) {
           alert("invalid details");
         } else {
-          console.log("user login succesfulyy");
+          console.log("user login succesfully");
 
           localStorage.setItem("user_login", JSON.stringify(userlogin));
 
@@ -77,13 +77,7 @@ const LoginPage = () => {
               onChange={getdata}
             />
           </div>
-          <div
-            className="input-container"
-            style={{
-              width: "350px",
-              maxWidth: "100%",
-            }}
-          >
+          <div className="input-container">
             <input
               className="input"
               type="password"
@@ -97,7 +91,7 @@ const LoginPage = () => {
             Login
           </button>
         </form>
-        <Link to={"/CreateAccount"} style={{ color: "white", marginLeft: "200px" }}>
+        <Link to={"/CreateAccount"} className="login-link" >
           <button className="sign-btn">SignUp</button>
         </Link>
       </div>
@@ -106,3 +100,4 @@ const LoginPage = () => {
 }
 
 export default LoginPage;
+
